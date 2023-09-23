@@ -7,5 +7,5 @@
 
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
-Console.Write("Квадрат числа = "); // Console.WriteLine("Квадрат числа = " + number * number);
+Console.Write("Квадрат числа = ");  //                       Console.WriteLine("Квадрат числа = " + number * number);
 Console.WriteLine(number * number); // <<<=== эта строка не нужна, если написать так ^^^
